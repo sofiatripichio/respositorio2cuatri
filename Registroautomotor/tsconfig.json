@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ES6",                          // Define la versión de ECMAScript que se emitirá (ES6 o superior)
+      "module": "CommonJS",                     // Módulo común para Node.js, usa "ES6" para navegador moderno
+      "rootDir": "./",                          // Directorio raíz de tus archivos TypeScript
+      "outDir": "./variablesjs",                // Directorio donde se generarán los archivos .js
+      "strict": true,                           // Habilita verificaciones estrictas de tipos
+      "esModuleInterop": true,                  // Permite interoperabilidad con módulos ES
+      "forceConsistentCasingInFileNames": true, // Enforce consistente uso de mayúsculas/minúsculas
+      "skipLibCheck": true                      // Omitir verificación de archivos .d.ts
+    },
+    "include": ["*.ts"],                        // Incluir todos los archivos .ts en la raíz
+    "exclude": ["node_modules"]                 // Excluir node_modules
+  }
+  
