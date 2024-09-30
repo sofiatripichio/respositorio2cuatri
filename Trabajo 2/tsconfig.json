@@ -1,0 +1,46 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "ESNext",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "outDir": "./variablesjs"
+    },
+    "include": [
+        "*.ts"
+    ]
+}
+ /*
+ "ES6" significa que el código será convertido a JavaScript que utiliza las características de ECMAScript 2015
+module: 
+ 
+"ESNext"
+ Esta opción especifica el sistema de módulos que se utilizará en la salida. "ESNext" permite que se utilicen las últimas características 
+ del sistema de módulos de JavaScript, incluyendo la importación y exportación de módulos.
+
+ strict: true
+ Al establecer esta opción en true, se habilitan todas las verificaciones estrictas del compilador. Esto ayuda a detectar errores en 
+ el código 
+
+esModuleInterop: true
+Esta opción permite interoperabilidad entre módulos CommonJS y módulos ES. Al activarla, el compilador genera un código que facilita la 
+importación de módulos escritos en CommonJS (por ejemplo, módulos de Node.js)S.
+
+skipLibCheck: true
+Esta opción le indica al compilador que ignore la verificación de tipos en los archivos de declaración de las bibliotecas
+
+forceConsistentCasingInFileNames: true
+Al establecer esto en true, se fuerza la consistencia en el uso de mayúsculas y minúsculas en los nombres de archivos. 
+Esto es especialmente útil en sistemas operativos que son sensibles a las mayúsculas (como Linux), 
+para evitar errores que podrían surgir de diferencias en la capitalización de los nombres de archivos.
+
+outDir: "./variablesjs"`
+Esta opción especifica el directorio de salida donde se generará el código JavaScript transpilado.
+
+include: ["*.ts"]
+Esta sección especifica qué archivos deben ser incluidos en la compilación. 
+En este caso, se están incluyendo todos los archivos TypeScript (*.ts) en el directorio actual.*/
+
+  
